@@ -1,12 +1,11 @@
 HELP.md
 target/
-*.mvn/wrapper/maven-wrapper.jar
+!.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
 !**/src/test/**/target/
 
-*.https://github.com/amifth/reactives/tree/main/.mvn/wrapper
-*.jar
-
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
 
 ### STS ###
 .apt_generated
