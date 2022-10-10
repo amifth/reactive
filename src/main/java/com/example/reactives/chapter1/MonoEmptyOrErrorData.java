@@ -12,7 +12,6 @@ public class MonoEmptyOrErrorData {
                 Utils.onComplete());
     }
 
-
     private static Mono<String> userRepository(Integer userId){
         if (userId == 1){
             return Mono.just(Utils.faker().name().fullName());
