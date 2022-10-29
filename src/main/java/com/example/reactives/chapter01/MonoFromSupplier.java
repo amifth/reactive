@@ -1,4 +1,4 @@
-package com.example.reactives.chapter1;
+package com.example.reactives.chapter01;
 
 import com.example.reactives.utils.Utils;
 import reactor.core.publisher.Mono;
